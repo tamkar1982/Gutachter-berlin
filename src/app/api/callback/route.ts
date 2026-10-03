@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export const runtime = "nodejs";
 
-const recipient = "level10@hotmail.de";
+const recipient = "Tamer.karakaya@outlook.com";
 
 export async function POST(request: Request) {
   let body: unknown;
