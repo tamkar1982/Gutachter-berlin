@@ -34,7 +34,7 @@ Ein schlanker Next.js MVP für eine unverbindliche KI-basierte Ersteinschätzung
 
 Das Landingpage-Formular sendet Name und Telefonnummer an `POST /api/callback`. Der Server verschickt die Anfrage an `level10@hotmail.de` über die Mailjet Send API v3.1. Lege in der lokalen `.env` sowie in der Deployment-Umgebung `MJ_APIKEY_PUBLIC`, `MJ_APIKEY_PRIVATE` und `CALLBACK_FROM_EMAIL` an. Der Absender muss in Mailjet bestätigt und aktiv sein; eine Beispielkonfiguration steht in `.env.example`. Geheimnisse gehören nie ins Frontend oder in Git.
 
-Die Landingpage wird lokal zusammen mit der API über Next.js ausgeliefert. Starte `npm run dev` und öffne `http://localhost:3000/index.html`; öffne die Datei nicht per Doppelklick. Ein reines Static-Hosting kann den API-Endpunkt nicht erreichen.
+Die Landingpage wird lokal zusammen mit der API über Next.js ausgeliefert. Starte `npm run dev` und öffne `http://localhost:3000/landing.html`; öffne die Datei nicht per Doppelklick. Ein reines Static-Hosting kann den API-Endpunkt nicht erreichen.
 
 ## MVP-Flow
 
